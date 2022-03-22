@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1.5px;
+}
+
+.Ibarra-Real-Nova{
+    font-family: 'Public Sans', serif;
+    color: #33323d;
+    text-align:left;
+}
+.Public-Sans, .btncontato{
+    font-family: 'Public Sans', sans-serif;
+    color: #33323d;
+    text-align: justify;
+}
+
+ .btnenviar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btncontato:hover{
+    color: #fafafa;
+    background: rgb(51, 50, 61);
+}
+.btnenviar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 48px;
+    color: #fff;
+    background: #20394c;
+    border: none;
+}
+.btnenviar:hover{
+    background: rgb(95, 180, 162);
+}
+a{
+    text-decoration: none;
+}
+.Public-Sans{
+    cursor: pointer;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.card{
+    min-height: 100vh;
+    width: 1500px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 54px;
+    padding-top: 20px;
+    background-color: #132235;
+}
+ul{
+    list-style: none;
+   
+    
+}
+li{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 50px;
+    padding: 10px;
+    
+}
+
+footer{
+    background: #132235;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 26px 250px;
+}
+.paginas{
+    display: flex;
+    align-items: center;
+    
+}
+footer ul{
+    padding-left: 48px;
+}
+footer li{
+    color: #fff;
+}
+.social{
+    word-spacing: 15px;
+}
+
+.contato{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 145px;
+}
+.contato h2{
+    font-size: 60px;
+    line-height: 60px;
+    padding: 10px 228px 28px 0;
+    margin-right: 500px;
+}
+.contato button{
+    width: 188px;
+    height: 68px;
+    font-size: 14px;
+}
